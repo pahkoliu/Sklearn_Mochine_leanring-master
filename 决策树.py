@@ -68,7 +68,6 @@ def de_tree():
     # 将保存的dot文件转成png文件，查看树结构
     # dot -Tpng tree.dot -o tree.png
 
-
 if __name__ == "__main__":
     de_tree()
-    
+
