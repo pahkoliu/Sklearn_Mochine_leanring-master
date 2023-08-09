@@ -2,13 +2,11 @@
     支持向量机：通过寻找划分超平面来进行分类的算法，这个划分超平面只由支持向量有关，与其他样本无关
 """
 
-
 import pandas as pd
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.metrics import classification_report
-
 
 def svm():
     # 加载数据集
@@ -46,5 +44,4 @@ def svm():
 
 if __name__ == "__main__":
     svm()
-
 

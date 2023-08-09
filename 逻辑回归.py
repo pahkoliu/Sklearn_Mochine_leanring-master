@@ -2,13 +2,11 @@
     逻辑回归：将线性回归函数的输出，作为Sigmoid函数的输入，然后输出为0-1之间的
 """
 
-
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report
-
 
 def LR():
     # 加载数据集
@@ -60,3 +58,4 @@ def LR():
 
 if __name__ == "__main__":
     LR()
+

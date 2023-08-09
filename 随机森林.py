@@ -8,7 +8,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import GridSearchCV
 
-
 def forest():
     # 加载数据
     titan = pd.read_csv("E:/Desktop/机器学习_新/数据集/泰坦尼克数据集/train.csv")
@@ -56,6 +55,4 @@ def forest():
 
 if __name__ == "__main__":
     forest()
-
-
 
